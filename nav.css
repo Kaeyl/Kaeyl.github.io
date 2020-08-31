@@ -1,0 +1,36 @@
+.topnav {
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.2);
+  box-shadow: 5px 5px 5px 5px rgba(255,255,255,0.2);
+
+}
+
+.topnav a {
+  float: left;
+  align-content: center;
+  justify-content: center;
+  color: #f6f6f6; 
+  padding: 20px 200px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav img {
+  height: 50px;
+  width: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.topnav a:hover {
+  /*background-color: #aee4ff;*/
+  background-color: rgba(255,255,255,0.4);
+  color: #c5c6c9;
+}
+
+.topnav a.active {
+  color: #f6f6f6;
+}
+
+.topnav a.active:hover {
+  color: #c5c6c9;
+}
