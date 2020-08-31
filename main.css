@@ -67,7 +67,7 @@ body, html {
 }
 
 .hero-image, .hero-image-recycle  {
-  background-image: url(../assets/Banner.png);
+  background-image: url(Banner.png);
   height: 100%;
   width: auto;
   background-position: center;
