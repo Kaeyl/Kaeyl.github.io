@@ -9,22 +9,34 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"> 
-	<link rel="stylesheet" href="main.css">
-	<link rel="stylesheet" href="nav.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/nav.css">
 	<title>TasArk</title>
 </head>
 
 <body>
 
  	<div class="hero-image">
-		 	<div class="topnav">
-			  <a href="index.html">Home</a>
-			  <a href="#news">News</a>
-			  <a href="#contact">Contact</a>
-			  <a href="#about">About</a>
-			  <!-- <img src="../assets/green.png"> -->
-			
-	</div>
+ 		<div class="container-nav d-flex align-items-center col-12 ">
+ 			<div class="row d-flex align-self-end col-12">
+<!-- 			 	<div class="topnav col-12">
+				  <a href="index.html">Home</a>
+				  <a href="#news">News</a>
+				  <a href="#contact">Contact</a>
+				  <a href="#about">About</a>
+				  <img src="../assets/green.png">
+				</div> -->
+				<div class="topnav" id="myTopnav">
+				  <a href="index.html" class="active">Home</a>
+				  <a href="#news">News</a>
+				  <a href="#contact">Contact</a>
+				  <a href="#about">About</a>
+				  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				    <b class="fa fa-bars"><img src="../assets/menu.png"></img></b>
+				  </a>
+				</div>
+			</div>
+		</div>
   	<div class="container d-flex align-items-center h-100">
   		<div class="row d-flex align-items-center h-100 col-12">
   			<div class="text-center">
@@ -49,7 +61,7 @@
 			    <div class="row d-flex align-items-center">
 				    <div class="col-sm-4">
 				      <a href="#">
-				      <img src="tree.png" width="300" height="300" class="rounded-circle"></a>
+				      <img src="../assets/tree.png" width="300" height="300" class="rounded-circle"></a>
 				      <h3><b>Clean Living</b></h3>
 				      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -58,7 +70,7 @@
 				    </div>
 				    <div class="col-sm-4">
 				      <a href="recycle.html">
-				      <img src="recycle.png" width="300" height="300" class="rounded-circle"></a>
+				      <img src="../assets/recycle.png" width="300" height="300" class="rounded-circle"></a>
 				      <h3><b>Recycling</b></h3>
 				      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -67,7 +79,7 @@
 				    </div>
 				    <div class="col-sm-4">
 				      <a href="#">
-				      <img src="green.png" href="" width="300" height="300" class="rounded-circle"></a>
+				      <img src="../assets/green.png" href="" width="300" height="300" class="rounded-circle"></a>
 				      <h3><b>Eco Concious</b></h3>
 					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -114,8 +126,20 @@
 			</div>
 	</div>
 
+<!-- ------------------------------------------- Scripts -------------------------------------------------------- -->
 
 
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
 
