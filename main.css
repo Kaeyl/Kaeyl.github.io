@@ -1,5 +1,6 @@
 .container {
 padding-left: 14%;
+/*padding-right: 10%;*/
   /*color: white;*/
   padding-top: 15%;
   padding-bottom: 15%;
@@ -113,7 +114,7 @@ body, html {
   padding-right: 5%;
   /*padding-bottom: 5%;*/
 }
-.container-1 .container-image-1 .container-image-2 .container-image-3 img{
+.container-1 .container-image-1, .container-image-2, .container-image-3 img{
   float: left;
   padding-top: 5%;
   padding-left: 5%;
@@ -121,7 +122,7 @@ body, html {
 
 
 }
-.container-image-4 img {
+.container-image-4 .container-image-3 img {
     /*float: left;*/
   /*padding-top: 5%;*/
   /*padding-left: 5%;*/
@@ -150,6 +151,9 @@ body, html {
   /*padding-top: 5%;*/
   padding-left: 5%;
   padding-right: 5%;
+}
+.container-image-4 {
+  padding-bottom: 2.5%;
 }
 .container-image-4 {
   padding-bottom: 2.5%;
