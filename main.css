@@ -108,11 +108,12 @@ body, html {
 }
 
 .container-1 {
-	padding-top: 5%;
+	/*padding-top: 5%;*/
   padding-left: 5%;
   padding-right: 5%;
+  /*padding-bottom: 5%;*/
 }
-.container-1 .container-image-1 .container-image-2 .container-image-3 .container-image-4 img{
+.container-1 .container-image-1 .container-image-2 .container-image-3 img{
   float: left;
   padding-top: 5%;
   padding-left: 5%;
@@ -120,8 +121,14 @@ body, html {
 
 
 }
+.container-image-4 img {
+    /*float: left;*/
+  /*padding-top: 5%;*/
+  /*padding-left: 5%;*/
+  /*padding-right: 5%;*/
+}
 
-.container-1 .container-image-1, .container-image-2, .container-image-3 .container-image-4 p {
+.container-1 .container-image-1, .container-image-2, .container-image-3  p {
   font-size: 25px;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: left;
@@ -129,23 +136,24 @@ body, html {
   padding-left: 5%;
   padding-right: 5%;
 }
-.container-1 .container-image-1, .container-image-2, .container-image-3 .container-image-4 h3{
+.container-1 .container-image-1, .container-image-2, .container-image-3 h3{
   text-align: left;
   font-family: 'Source Sans Pro', sans-serif;
   padding-left: 5%;
   padding-right: 5%;
 }
 
-.container-image-3, .container-image-4{
-  float: left;
+.container-image-3, .container-image-4 {
   font-size: 25px;
-  text-align: left;
   font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  /*padding-top: 5%;*/
   padding-left: 5%;
-/*   padding-right: 10%; */
-  padding-bottom: 5%;
+  padding-right: 5%;
 }
-
+.container-image-4 {
+  padding-bottom: 2.5%;
+}
 /*This is the Contact us component*/
 .container-footer {
   height: 100%;
