@@ -1,56 +1,74 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+	 <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">  -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="main.css">
-	<link rel="stylesheet" href="nav.css">
+	<link rel="stylesheet" href="css/nav.css">
 	<title>TasArk</title>
 </head>
 
 <body>
 
  	<div class="hero-image">
-		 	<div class="topnav">
-			  <a href="index.html">Home</a>
-			  <a href="#news">News</a>
-			  <a href="#contact">Contact</a>
-			  <a href="#about">About</a>
-			  <!-- <img src="../assets/green.png"> -->
-			
-	</div>
-  	<div class="container d-flex align-items-center h-100">
-  		<div class="row d-flex align-items-center h-100 col-12">
+ 		<div class="container-nav d-flex align-items-center col-12 ">
+ 			<div class="row d-flex align-self-end col-12 col-4">
+<!-- 			 	<div class="topnav col-12">
+				  <a href="index.html">Home</a>
+				  <a href="#news">News</a>
+				  <a href="#contact">Contact</a>
+				  <a href="#about">About</a>
+				  <img src="../assets/green.png">
+				</div> -->
+				<div class="topnav" id="myTopnav">
+				  <a href="index.html" class="active">Home</a>
+				  <a href="#news">News</a>
+				  <a href="#contact">Contact</a>
+				  <a href="#about">About</a>
+				  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				    <b class="fa fa-bars"><img src="../assets/menu.png"></img></b>
+				  </a>
+				</div>
+			</div>
+		</div>
+  	<div class="container d-flex align-items-center h-99">
+  		<div class="row d-flex align-items-center h-99 col-12">
   			<div class="text-center">
   				<div class="buffer col-12 col-6"></div>
   				<div class="buffer col-12 col-6"></div>
   				<hr class="top-hr">
-  				<div class="small-buffer col-12 col-6"></div>
-		  		<h1 class="text-uppercase col-12"><strong>TasArk</strong></h1>
+  				<div class="buffer col-12 col-6"></div>
+  				<div class="buffer col-12 col-6"></div>
+  				<div class="buffer col-12 col-6"></div>
+  				<div class="buffer col-12 col-6"></div>
+		  		<h1 class="text-uppercase col-12 "><strong>TasArk</strong></h1>
 		  		<div class="buffer col-12 col-6"></div>
 		  		<div class="buffer col-12 col-6"></div>
 		  		<div class="buffer col-12 col-6"></div>
-		  		<h5 class="text-uppercase col-12"><b>Acting localally, thinking globally</b></h5>
-		  		<div class="buffer col-12 col-6"></div>
-		  		<h5 class="underheading col-12"><b>Recycling</b></h5>
+		  		<!-- <h5 class="text-uppercase col-12"><b>Acting locally, thinking globally</b></h5> -->
 		  		<hr class="bottom-hr">
 		  	</div>
-			<section class="text-center col-12 col-6"></section>
+			<section class="text-center col-12 "></section>
 	  	</div>
 
   	</div>
 <div class="container-body col-12">
-	<div class="container-1 d-flex align-items-center h-100">
+	<!-- <h5 class="text-uppercase col-12"><b>Acting localally, thinking globally</b></h5> -->
+	<div class="container-1 d-flex align-items-center h-100 col-12">
 			<div class="container-1 d-flex align-items-center h-100">
 			    <div class="row d-flex align-items-center">
-				    <div class="col-sm-4">
-				      <a href="tasmanianfacilities.html">
+			    	<div class="container-text-1 col-sm-12">
+			    		<p><i>Acting localally, thinking globally</i></p>
+			    	</div>
+				    <div class="container-image-1 col-sm-6">
+				      <a href="#">
 				      <img src="pin.png" width="300" height="300" class="rounded-circle"></a>
 				      <h3><b>Clean Living</b></h3>
 				      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -58,7 +76,7 @@
 					  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					  consequat.</p>
 				    </div>
-				    <div class="col-sm-4">
+				    <div class="container-image-2 col-sm-6">
 				      <a href="recycle.html">
 				      <img src="treehand.png" width="300" height="300" class="rounded-circle"></a>
 				      <h3><b>Recycling</b></h3>
@@ -67,9 +85,18 @@
 					  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					  consequat.</p>
 				    </div>
-				    <div class="col-sm-4">
+				    <div class="container-image-3 col-sm-6">
 				      <a href="#">
-				      <img src="Tas.png" href="" width="300" height="300" class="rounded-circle"></a>
+				      <img src="tas.png" href="" width="300" height="300" class="rounded-circle"></a>
+				      <h3><b>Eco Concious</b></h3>
+					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					  consequat.</p>
+			    	</div>
+			    	<div class="container-image-4 col-sm-6">
+				      <a href="#">
+				      <img src="green.png" href="" width="300" height="300" class="rounded-circle"></a>
 				      <h3><b>Eco Concious</b></h3>
 					  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -86,7 +113,7 @@
 		<div class="row d-flex align-items-center col-12">
 	  			<div class="text-center col-12">
 					<!-- <h2><b>Contact us</b></h2> -->
-					<!-- <hr> -->
+					<hr>
 				</div>
 			</div>
 		</div>
@@ -116,8 +143,20 @@
 			</div>
 	</div>
 
+<!-- ------------------------------------------- Scripts -------------------------------------------------------- -->
 
 
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
 
