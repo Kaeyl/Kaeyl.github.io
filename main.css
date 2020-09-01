@@ -64,9 +64,9 @@ body, html {
 }
 
 .hero-image, .hero-image-recycle  {
-  background: url(Banner.png) no-repeat center center fixed;
+  background: url(../assets/Banner.png) no-repeat center center fixed;
   background-size: cover;
-  overflow: scroll;
+  /*overflow: scroll;*/
   height: 100%;
   width: 100%;
   background-position: center;
@@ -213,4 +213,128 @@ hr {
   padding-right: 5%;
   list-style-type: none;
   margin-left: -35px;
+}
+
+/*----------------------------------------------------different screens-------------------------------------------------------------*/
+@media screen and (max-width: 600px){
+.container {
+  color: white;
+  padding-top: 10%;
+  font-family: 'Tinos', serif;
+}
+.container h1 {
+  /*position: relative;*/
+  font-size: 350%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 200%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 200%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.buffer {
+  height: 0px;
+}
+
+.top-hr {
+  float: left;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+
+.bottom-hr {
+
+  float: right;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+.text-slogan {
+  /*float: left;*/
+  color: white;
+
+
+  font-size: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+}
+@media screen and (max-width: 300px){
+  .container {
+  color: white;
+  padding-top: 0%;
+  font-family: 'Tinos', serif;
+}
+.container h1 {
+  /*position: relative;*/
+  font-size: 250%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 150%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 150%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.buffer {
+  height: 0px;
+}
+
+.top-hr {
+  float: left;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+
+.bottom-hr {
+
+  float: right;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+.text-slogan {
+  /*float: left;*/
+  color: white;
+
+
+  font-size: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 }
