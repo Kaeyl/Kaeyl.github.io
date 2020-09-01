@@ -1,75 +1,74 @@
-.hero-text h1 {
-  float: left;
+.container {
   color: white;
-  position: absolute;
-  left: 25%;
-  top: 50%;
-  font-size: 500%;
+  padding-top: 10%;
   font-family: 'Tinos', serif;
 }
-.top-of-frame {
-  border-color: white;
-  border-width: 4px;
-  position: absolute;
-  width: 25%;
-  float: left;
-  left: 24.5%;
-  top: 45%;
-}
-.top-virticle-side-of-frame {
-  border-color: white;
-  border-width: 4px;
-  position: absolute;
-  width: 9%;
-  float: left;
-  left: 20%;
-  top: 54%;
-  transform: rotate(90deg);
-}
-
-
-.bottom-of-frame{
-  border-color: white;
-  border-width: 4px;
-  position: absolute;
-  width: 25%;
-  float: right;
-  left: 41%;
-  top: 75%;
-}
-.bottom-virticle-side-of-frame {
-  border-color: white;
-  border-width: 4px;
-  position: absolute;
-  width: 10%;
-  float: left;
-  left: 61%;
-  top: 65%;
-
-  transform: rotate(90deg);
-}
-
-
-
-.hero-text h2 {
-  float: left;
+.container h1 {
+  /*position: relative;*/
+  font-size: 400%;
   color: white;
-  position: absolute;
-  left: 25%;
-  top: 65%;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 250%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 250%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.buffer {
+  height: 10px;
+}
+
+.top-hr {
+  float: left;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+
+.bottom-hr {
+
+  float: right;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+.text-slogan {
+  /*float: left;*/
+  color: white;
+
+
   font-size: auto;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 body, html {
+
   height: 100%;
   width: 100%;
 }
 
 .hero-image, .hero-image-recycle  {
-  background-image: url(Banner.png);
+  background: url(../assets/Banner.png) no-repeat center center fixed;
+  background-size: cover;
+  overflow: scroll;
   height: 100%;
-  width: auto;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,19 +78,14 @@ body, html {
   -o-background-size: cover;
 
 }
-/*.hero-image-recycle {
-  background-image: url(assets/Banner.png);
-  height: 100%;
-  width: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.container-body {
+    text-align: center;
+  background:#f6f6f6;;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+}
 
-}*/
 .container-1 img{
   border-style: solid;
   border-color: white;
@@ -99,31 +93,30 @@ body, html {
 }
 
 /*This is the information body.*/
-.body-container-1 {
-  /*height: 100%;*/
-  /*width: 100%; */
+.container-1 {
+  height: auto;
+  width: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  /*background-size: cover;*/
   text-align: center;
   background:#f6f6f6;
-  position: relative;
-
-  /*color: white;*/
+  /*position: relative;*/
 }
+
 .container-1 {
 	padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
 }
-.body-container-1 .container-1 img{
+.container-1 .container-image-1 img{
   /*max-width: 100%;*/
   /*max-height: 100%;*/
   overflow: hidden;
 }
 
-p {
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
 	font-size: 25px;
   font-family: 'Source Sans Pro', sans-serif;
 	text-align: left;
@@ -133,14 +126,13 @@ p {
 }
 
 /*This is the Contact us component*/
-.body-container-2 {
-  bottom: 0;
+.container-footer {
+  /*bottom: 0;*/
   height: 100%;
   width: 100%;
-  background-size: cover;
+  /*background-size: cover;*/
   text-align: center;
-  padding-top: 10%;
-  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 5%;
   background:white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -150,36 +142,66 @@ p {
 
 
 /*This is the contact information*/
-.body-container-2 .col-sm-6 {
-  float: right;
-  padding-top: 2%;
-  padding-left: 15%;
-  padding-right: 5%;
-  padding-bottom: 5%;
+.container-footer .container-2-contact-info {
+    padding-top: 5%;
 }
 
-h3 {
+
+
+.container-footer .container-2-contact-us h2{
   font-family: 'Source Sans Pro', sans-serif;
-  text-align: left;
-  padding-top: 2%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
+  font-size: 300%;
+
 }
+/*.container-footer .container-2-contact-info p{
+  float: right;
+  text-align: left;
+  width: 33%;
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;*/
+  /*text-align: right;*/
+/*  padding-top: 2%;
+  padding-left: 5%;*/
+  /*padding-right: 5%;*/
+
+/*}*/
+
 
 hr {
   width: 10%;
 }
 
-.container-3 .col-xl-12 {
-  height: 100%;
-  min-height: 100%;
-  text-align: center;
+.container-3 h5{
+  /*height: 100%;*/
+  /*min-height: 100%;*/
+
+  /*text-align: center;*/
   background-color: #f6f6f6;
   font-family: 'Source Sans Pro', sans-serif;
 
 }
-
+.container-3 {
+  /*bottom: 0;*/
+  /*background-size: cover;*/
+  text-align: center;
+  background:#f6f6f6;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.container-contact p{
+  /*float: right;*/
+  text-align: left;
+  width: 100%;
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*padding-left: 5%;*/
+  /*text-align: right;*/
+  /*background:#f6f6f6;;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 /*---------------------------------------------- tasmanianfacilities css -------------------------------------------------------- */
 
 .NW-town-list li, .N-town-list li, .S-town-list li {
