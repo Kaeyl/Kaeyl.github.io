@@ -64,7 +64,7 @@ body, html {
 }
 
 .hero-image, .hero-image-recycle  {
-  background: url(Banner.png) no-repeat center center fixed;
+  background: url(../assets/Banner.png) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -110,7 +110,7 @@ body, html {
 }
 
 .container-1 {
-	/*padding-top: 5%;*/
+  /*padding-top: 5%;*/
   padding-left: 5%;
   padding-right: 5%;
   /*padding-bottom: 5%;*/
@@ -174,38 +174,45 @@ body, html {
 
 
 /*This is the contact information*/
-.container-footer .container-2-contact-info {
-    padding-top: 5%;
-}
 
-
-
-.container-footer .container-2-contact-us h2{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 300%;
-
-}
 
 
 hr {
   width: 10%;
 }
 
+.container-contact-email {
+  padding-left:39%;
+  float: left;
+
+}
+
 .container-3 h5{
-  background-color: #f6f6f6;
+  /*background-color: #f6f6f6;*/
   font-family: 'Source Sans Pro', sans-serif;
 
 }
 .container-3 {
+  height: 1%;
   text-align: center;
-  background:#f6f6f6;;
+  /*background:#f6f6f6;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+
 .container-contact p{
   text-align: left;
-  /*height: 100%;*/
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.container-contact-email h2{
+  padding-top: 3%;
+  text-align: left;
   width: 100%;
   font-size: 25px;
   font-family: 'Source Sans Pro', sans-serif;
@@ -213,6 +220,53 @@ hr {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+.contact-info-text{
+  text-align: left;
+  /*width: 100%;*/
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-email{
+
+}
+.form-password {
+
+}
+/*------------------------------------------------ recycling css ----------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-2-user-form {
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 25px;
+  padding-top: 10%;
+  padding-left: 39.5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:40%;
+}
+.btn-primary {
+  width:40%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+
+
+
 /*---------------------------------------------- tasmanianfacilities css -------------------------------------------------------- */
 
 .NW-town-list li, .N-town-list li, .S-town-list li {
@@ -227,6 +281,213 @@ hr {
 }
 
 /*----------------------------------------------------different screens-------------------------------------------------------------*/
+@media screen and (max-width: 1280px) {
+  .buffer {
+  height: 10px;
+}
+.container h1 {
+  font-size: 300%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 150%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 150%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-text-1 p {
+  float: left;
+  font-size: 300%;
+  color:  black;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 22px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+.container-image-4 {
+  font-size: 22px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  /*padding-top: 5%;*/
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+/*---------------------------------------- 1280px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-contact-email {
+  padding-left:23%;
+  float: left;
+
+}
+.container-2-user-form {
+  text-align: left;
+  font-size: 15px;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.container-2-user-form p{
+  text-align: left;
+  font-size: 15px;
+  padding-top: 1.5%;
+  padding-left: 16%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:75%;
+}
+.btn-primary {
+  width:75%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+.container-3 {
+
+  height: 1%;
+  text-align: center;
+  /*background:#f6f6f6;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+}
+/*------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+  .buffer {
+  height: 10px;
+}
+.container h1 {
+  font-size: 300%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 150%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 150%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-text-1 p {
+  float: left;
+  font-size: 300%;
+  color:  black;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 22px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+.container-image-4 {
+  font-size: 22px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  /*padding-top: 5%;*/
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+/*---------------------------------------- 1024px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-contact-email {
+  padding-left:23%;
+  float: left;
+
+}
+.container-2-user-form {
+  text-align: left;
+  font-size: 15px;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.container-2-user-form p{
+  text-align: left;
+  font-size: 15px;
+  padding-top: 1.5%;
+  padding-left: %;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:75%;
+}
+.btn-primary {
+  width:75%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+.container-3 {
+
+  height: 1%;
+  text-align: center;
+  /*background:#f6f6f6;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+}
+}
+/*------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 950px) {
   .buffer {
   height: 10px;
@@ -277,7 +538,38 @@ hr {
   padding-right: 5%;
 }
 
+
+/*---------------------------------------- 950px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
 }
+.container-2-user-form {
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 25px;
+  padding-top: 10%;
+  padding-left: 23%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:75%;
+}
+.btn-primary {
+  width:75%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
 @media screen and (max-width: 875px) {
   .buffer {
   height: 10px;
@@ -328,7 +620,38 @@ hr {
   padding-right: 5%;
 }
 
+
+/*---------------------------------------- 875px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
 }
+.container-2-user-form {
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 25px;
+  padding-top: 10%;
+  /*padding-left: 40%;*/
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:25%;
+}
+.btn-primary {
+  width:25%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
 @media screen and (max-width: 823px) {
   .buffer {
   height: 10px;
@@ -379,7 +702,38 @@ hr {
   padding-right: 5%;
 }
 
+
+/*---------------------------------------- 823px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
 }
+.container-2-user-form p{
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  /*font-size: 25px;*/
+  /*padding-top: 10%;*/
+  padding-right: 20%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:75%;
+}
+.btn-primary {
+  width:75%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
 @media screen and (max-width: 812px) {
   .buffer {
   height: 10px;
@@ -430,7 +784,182 @@ hr {
   padding-right: 5%;
 }
 
+
+/*---------------------------------------- 812px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
 }
+.container-2-user-form {
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 25px;
+  padding-top: 10%;
+  padding-left: 40%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:25%;
+}
+.btn-primary {
+  width:25%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
+@media screen and (max-width: 812px){
+.container {
+  color: white;
+  padding-top: 10%;
+  font-family: 'Tinos', serif;
+}
+.container h1 {
+  font-size: 350%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 200%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 200%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-1 {
+  padding-left: 1%;
+}
+.container-text-1 p {
+  float: left;
+  font-size: 200%;
+  color:  black;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 img{
+  float: left;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+
+}
+ .container-image-4 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*text-align: left;*/
+  padding-top: 5%;
+  padding-left: 13%;
+  padding-right: 5%;
+}
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-left: 12%;
+  padding-right: 5%;
+}
+.container-1 .container-image-1, .container-image-2, .container-image-3 h3{
+  text-align: left;
+    padding-left: 13%;
+  padding-right: 5%;
+}
+.buffer {
+  height: 10px;
+}
+
+.top-hr {
+  float: left;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+
+.bottom-hr {
+
+  float: right;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+.text-slogan {
+  color: white;
+
+
+  font-size: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*---------------------------------------- 812px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-2-user-form {
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 25px;
+  padding-top: 10%;
+  padding-left: 24.5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.container-2-user-form p{
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  /*font-size: 25px;*/
+  /*padding-top: 10%;*/
+  padding-left: 0%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:75%;
+}
+.btn-primary {
+  width:75%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
 @media screen and (max-width: 800px) {
   .buffer {
   height: 10px;
@@ -481,7 +1010,55 @@ hr {
   padding-right: 5%;
 }
 
+
+/*---------------------------------------- 800px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
 }
+.container-contact-email {
+  padding-left:25%;
+  float: left;
+
+}
+.container-2-user-form {
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 15px;
+  padding-top: 10%;
+  padding-left: 15%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.container-2-user-form p{
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 15px;
+  padding-top: 4%;
+  padding-left: 15%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:75%;
+}
+.btn-primary {
+  width:75%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
 @media screen and (max-width: 740px) {
   .buffer {
   height: 10px;
@@ -531,8 +1108,59 @@ hr {
   padding-left: 5%;
   padding-right: 5%;
 }
-}
 
+/*---------------------------------------- 740px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-contact-email {
+  padding-left:20%;
+  float: left;
+
+}
+.container-2-user-form {
+  text-align: left;
+  font-size: 15px;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.container-2-user-form p{
+  text-align: left;
+  font-size: 15px;
+  padding-top: 1.5%;
+  padding-left: 15%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:75%;
+}
+.btn-primary {
+  width:75%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+.container-3 {
+
+  height: 1%;
+  text-align: center;
+  /*background:#f6f6f6;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
 @media screen and (max-width: 700px) {
   .buffer {
   height: 10px;
@@ -582,7 +1210,38 @@ hr {
   padding-left: 5%;
   padding-right: 5%;
 }
+
+/*---------------------------------------- 700px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
 }
+.container-2-user-form {
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 25px;
+  padding-top: 10%;
+  padding-left: 40%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:25%;
+}
+.btn-primary {
+  width:25%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
 @media screen and (max-width: 667px){
 .container {
   color: white;
@@ -683,7 +1342,58 @@ hr {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+/*---------------------------------------- 667px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
 }
+.container-contact-email {
+  padding-left:10%;
+  float: left;
+
+}
+.container-2-user-form {
+  text-align: left;
+  font-size: 15px;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.container-2-user-form p{
+  text-align: left;
+  font-size: 11px;
+  padding-top: 1.5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:75%;
+}
+.btn-primary {
+  width:75%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+.container-3 {
+
+  height: 1%;
+  text-align: center;
+  /*background:#f6f6f6;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
 @media screen and (max-width: 600px){
 .container {
   color: white;
@@ -769,7 +1479,428 @@ hr {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+/*---------------------------------------- 600px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
 }
+.container-2-user-form {
+  text-align: left;
+  font-size: 25px;
+  padding-top: 10%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:100%;
+
+}
+.btn-primary {
+  width:100%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
+@media screen and (max-width: 576px){
+.container {
+  color: white;
+  padding-top: 10%;
+  font-family: 'Tinos', serif;
+}
+.container h1 {
+  font-size: 350%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 200%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 200%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-text-1 p {
+  float: left;
+  font-size: 300%;
+  color:  black;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-top: 5%;
+  padding-left: 13%;
+  padding-right: 5%;
+}
+ .container-image-4 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*text-align: left;*/
+  padding-top: 5%;
+  padding-left: 13%;
+  padding-right: 5%;
+}
+.buffer {
+  height: 10px;
+}
+
+.top-hr {
+  float: left;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+
+.bottom-hr {
+
+  float: right;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+.text-slogan {
+  color: white;
+
+
+  font-size: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*---------------------------------------- 576px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-2-user-form {
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 25px;
+  padding-top: 10%;
+  padding-left: 40%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:25%;
+}
+.btn-primary {
+  width:25%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
+@media screen and (max-width: 414px){
+.container {
+  color: white;
+  padding-top: 10%;
+  font-family: 'Tinos', serif;
+}
+.container h1 {
+  font-size: 350%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 200%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 200%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-1 {
+  padding-left: 1%;
+}
+.container-text-1 p {
+  float: left;
+  font-size: 200%;
+  color:  black;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 img{
+  float: left;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+
+}
+ .container-image-4 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*text-align: left;*/
+  padding-top: 5%;
+  padding-left: 13%;
+  padding-right: 5%;
+}
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-left: 12%;
+  padding-right: 5%;
+}
+.container-1 .container-image-1, .container-image-2, .container-image-3 h3{
+  text-align: left;
+    padding-left: 13%;
+  padding-right: 5%;
+}
+.buffer {
+  height: 10px;
+}
+
+.top-hr {
+  float: left;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+
+.bottom-hr {
+
+  float: right;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+.text-slogan {
+  color: white;
+
+
+  font-size: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*---------------------------------------- 414px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-2-user-form {
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 25px;
+  padding-top: 10%;
+  padding-left: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:100%;
+}
+.btn-primary {
+  width:100%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
+/*@media screen and (max-width: 375px){
+.container {
+  color: white;
+  padding-top: 10%;
+  font-family: 'Tinos', serif;
+}
+.container h1 {
+  font-size: 350%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 200%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 200%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-1 {
+  padding-left: 1%;
+}
+.container-text-1 p {
+  float: left;
+  font-size: 200%;
+  color:  black;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 img{
+  float: left;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+
+}
+ .container-image-4 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 5%;
+  padding-left: 13%;
+  padding-right: 5%;
+}
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-left: 12%;
+  padding-right: 5%;
+}
+.container-1 .container-image-1, .container-image-2, .container-image-3 h3{
+  text-align: left;
+    padding-left: 13%;
+  padding-right: 5%;
+}
+.buffer {
+  height: 10px;
+}
+
+.top-hr {
+  float: left;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+
+.bottom-hr {
+
+  float: right;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+.text-slogan {
+  color: white;
+
+
+  font-size: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+*/
+
+/*---------------------------------------- 375px recycling -------------------------------------------------------------------*/
+/*.container-2-head-title{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-contact-email {
+  padding-left:10%;
+  float: left;
+
+}
+.container-2-user-form {
+  text-align: left;
+  font-size: 15px;
+  padding-left: 10%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.container-2-user-form p{
+  text-align: left;
+  font-size: 10px;
+  padding-top: 1.5%;
+  padding-left: 1%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:25%;
+}
+.btn-primary {
+  width:25%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}*/
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
 @media screen and (max-width: 375px){
 .container {
   color: white;
@@ -870,108 +2001,48 @@ hr {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+/*---------------------------------------- 375px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
 }
-@media screen and (max-width: 375px){
-.container {
-  color: white;
+.container-2-user-form {
+  text-align: left;
+  /*font-size: 25px;*/
   padding-top: 10%;
-  font-family: 'Tinos', serif;
-}
-.container h1 {
-  font-size: 350%;
-  color: white;
-  padding-right: 100%;
-  font-family: 'Tinos', serif;
-}
-.container h5 {
-
-  font-size: 200%;
-  color: white;
-  text-align: left;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-.underheading {
-  font-size: 200%;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-.container-1 {
   padding-left: 1%;
-}
-.container-text-1 p {
-  float: left;
-  font-size: 200%;
-  color:  black;
-  padding-left: 4%;
-  padding-bottom: 5%;
   font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
-.container-body {
-  padding-left: 0.5%;
-}
-
-.container-1 .container-image-1, .container-image-2, .container-image-3 img{
-  float: left;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-
-
-}
- .container-image-4 {
-  font-size: 24px;
+.container-2-user-form p{
+    text-align: left;
+  font-size: 12.5px;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 0%;
   font-family: 'Source Sans Pro', sans-serif;
-  /*text-align: left;*/
-  padding-top: 5%;
-  padding-left: 13%;
-  padding-right: 5%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
-.container-1 .container-image-1, .container-image-2, .container-image-3 p {
-  font-size: 25px;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-align: left;
-  padding-left: 12%;
-  padding-right: 5%;
+.form-control {
+  width:100%;
+  /*padding-left: 0%;*/
 }
-.container-1 .container-image-1, .container-image-2, .container-image-3 h3{
-  text-align: left;
-    padding-left: 13%;
-  padding-right: 5%;
+.btn-primary {
+  width:100%;
+  background-color: #96d629;
+  border-color: #8cc152;
 }
-.buffer {
-  height: 10px;
-}
-
-.top-hr {
-  float: left;
-  width: 100%;
-  border-radius: 7px 7px 7px 7px;
-  border-color:  white;
-  border-width: 3px;
-  max-width: 75%;
-}
-
-
-
-.bottom-hr {
-
-  float: right;
-  width: 100%;
-  border-radius: 7px 7px 7px 7px;
-  border-color:  white;
-  border-width: 3px;
-  max-width: 75%;
-}
-
-
-.text-slogan {
-  color: white;
-
-
-  font-size: auto;
-  font-family: 'Source Sans Pro', sans-serif;
+.btn-primary:hover{
+  background-color: #8cc152;
 }
 
 }
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
 @media screen and (max-width: 360px){
 .container {
   color: white;
@@ -1072,7 +2143,44 @@ hr {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+/*---------------------------------------- 360px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
 }
+
+.container-contact-email {
+  padding-left:10%;
+  float: left;
+
+}
+.container-2-user-form p{
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 12.5px;
+  /*padding-top: 10%;*/
+  /*padding-left: 10%;*/
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:100%;
+}
+.btn-primary {
+  width:100%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
 @media screen and (max-width: 320px){
  .container {
   color: white;
@@ -1141,7 +2249,37 @@ hr {
   font-size: auto;
   font-family: 'Source Sans Pro', sans-serif;
 }
+/*---------------------------------------- 320px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
 }
+.container-2-user-form {
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 25px;
+  padding-top: 10%;
+  padding-left: 40%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:25%;
+}
+.btn-primary {
+  width:25%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
 @media screen and (max-width: 300px){
   .container {
   color: white;
@@ -1209,4 +2347,37 @@ hr {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+/*---------------------------------------- 300px recycling -------------------------------------------------------------------*/
+.container-2-head-title{
+  /*background-color: #f6f6f6;*/
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-2-user-form {
+    text-align: left;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  font-size: 25px;
+  padding-top: 10%;
+  padding-left: 40%;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.form-control {
+  width:25%;
+}
+.btn-primary {
+  width:25%;
+  background-color: #96d629;
+  border-color: #8cc152;
+}
+.btn-primary:hover{
+  background-color: #8cc152;
+}
+
+}
+
+/*----------------------------------------- end recycling -------------------------------------------------------------------*/
 }
