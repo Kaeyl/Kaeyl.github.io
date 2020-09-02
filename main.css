@@ -227,6 +227,57 @@ hr {
 }
 
 /*----------------------------------------------------different screens-------------------------------------------------------------*/
+@media screen and (max-width: 950px) {
+  .buffer {
+  height: 10px;
+}
+.container h1 {
+  font-size: 300%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 150%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 150%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-text-1 p {
+  float: left;
+  font-size: 300%;
+  color:  black;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 22px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+.container-image-4 {
+  font-size: 22px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  /*padding-top: 5%;*/
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+}
 @media screen and (max-width: 875px) {
   .buffer {
   height: 10px;
@@ -278,6 +329,159 @@ hr {
 }
 
 }
+@media screen and (max-width: 823px) {
+  .buffer {
+  height: 10px;
+}
+.container h1 {
+  font-size: 300%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 150%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 150%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-text-1 p {
+  float: left;
+  font-size: 300%;
+  color:  black;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+.container-image-4 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  /*padding-top: 5%;*/
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+}
+@media screen and (max-width: 812px) {
+  .buffer {
+  height: 10px;
+}
+.container h1 {
+  font-size: 300%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 150%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 150%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-text-1 p {
+  float: left;
+  font-size: 300%;
+  color:  black;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+.container-image-4 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  /*padding-top: 5%;*/
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+}
+@media screen and (max-width: 800px) {
+  .buffer {
+  height: 10px;
+}
+.container h1 {
+  font-size: 300%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 150%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 150%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-text-1 p {
+  float: left;
+  font-size: 300%;
+  color:  black;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+.container-image-4 {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  /*padding-top: 5%;*/
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+}
 @media screen and (max-width: 740px) {
   .buffer {
   height: 10px;
@@ -317,7 +521,7 @@ hr {
   text-align: left;
   padding-top: 5%;
   /*padding-left: 5%;*/
-  padding-right: 5%;
+  padding-right: 1%;  
 }
 .container-image-3, .container-image-4 {
   font-size: 24px;
@@ -379,7 +583,107 @@ hr {
   padding-right: 5%;
 }
 }
+@media screen and (max-width: 667px){
+.container {
+  color: white;
+  padding-top: 10%;
+  font-family: 'Tinos', serif;
+}
+.container h1 {
+  font-size: 350%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
 
+  font-size: 200%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 200%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-1 {
+  padding-left: 1%;
+}
+.container-text-1 p {
+  float: left;
+  font-size: 200%;
+  color:  black;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  /*padding-left: 0.5%;*/
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 img{
+  float: left;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+
+}
+ .container-image-4 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*text-align: left;*/
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.container-1 .container-image-1, .container-image-2, .container-image-3 h3{
+  text-align: left;
+    padding-left: 5%;
+  padding-right: 5%;
+}
+.buffer {
+  height: 10px;
+}
+
+.top-hr {
+  float: left;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+
+.bottom-hr {
+
+  float: right;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+.text-slogan {
+  color: white;
+
+
+  font-size: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+}
 @media screen and (max-width: 600px){
 .container {
   color: white;
@@ -420,10 +724,219 @@ hr {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: left;
   padding-top: 5%;
-  /*padding-left: 5%;*/
+  padding-left: 13%;
   padding-right: 5%;
 }
+ .container-image-4 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*text-align: left;*/
+  padding-top: 5%;
+  padding-left: 13%;
+  padding-right: 5%;
+}
+.buffer {
+  height: 10px;
+}
 
+.top-hr {
+  float: left;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+
+.bottom-hr {
+
+  float: right;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+.text-slogan {
+  color: white;
+
+
+  font-size: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+}
+@media screen and (max-width: 375px){
+.container {
+  color: white;
+  padding-top: 10%;
+  font-family: 'Tinos', serif;
+}
+.container h1 {
+  font-size: 350%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 200%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 200%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-1 {
+  padding-left: 1%;
+}
+.container-text-1 p {
+  float: left;
+  font-size: 200%;
+  color:  black;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 img{
+  float: left;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+
+}
+ .container-image-4 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*text-align: left;*/
+  padding-top: 5%;
+  padding-left: 13%;
+  padding-right: 5%;
+}
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-left: 12%;
+  padding-right: 5%;
+}
+.container-1 .container-image-1, .container-image-2, .container-image-3 h3{
+  text-align: left;
+    padding-left: 13%;
+  padding-right: 5%;
+}
+.buffer {
+  height: 10px;
+}
+
+.top-hr {
+  float: left;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+
+.bottom-hr {
+
+  float: right;
+  width: 100%;
+  border-radius: 7px 7px 7px 7px;
+  border-color:  white;
+  border-width: 3px;
+  max-width: 75%;
+}
+
+
+.text-slogan {
+  color: white;
+
+
+  font-size: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+}
+@media screen and (max-width: 375px){
+.container {
+  color: white;
+  padding-top: 10%;
+  font-family: 'Tinos', serif;
+}
+.container h1 {
+  font-size: 350%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 200%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 200%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-1 {
+  padding-left: 1%;
+}
+.container-text-1 p {
+  float: left;
+  font-size: 200%;
+  color:  black;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 img{
+  float: left;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+
+}
+ .container-image-4 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*text-align: left;*/
+  padding-top: 5%;
+  padding-left: 13%;
+  padding-right: 5%;
+}
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-left: 12%;
+  padding-right: 5%;
+}
+.container-1 .container-image-1, .container-image-2, .container-image-3 h3{
+  text-align: left;
+    padding-left: 13%;
+  padding-right: 5%;
+}
 .buffer {
   height: 10px;
 }
@@ -492,11 +1005,14 @@ hr {
 }
 .container-body {
   padding-left: 0.5%;
+  padding-right: 5%;
 }
-
+.container-1 {
+  padding left:0.5%;
+}
 .container-1 .container-image-1, .container-image-2, .container-image-3 img{
   float: left;
-  padding-top: 5%;
+  /*padding-top: 5%;*/
   padding-left: 5%;
   padding-right: 5%;
 
@@ -507,7 +1023,7 @@ hr {
   font-family: 'Source Sans Pro', sans-serif;
   /*text-align: left;*/
   /*padding-top: 5%;*/
-  padding-left: 5%;
+  padding-left: 12%;
   padding-right: 5%;
 }
 .container-1 .container-image-1, .container-image-2, .container-image-3 p {
@@ -519,7 +1035,7 @@ hr {
 }
 .container-1 .container-image-1, .container-image-2, .container-image-3 h3{
   text-align: left;
-    padding-left: 5%;
+    padding-left: 12%;
   padding-right: 5%;
 }
 .buffer {
