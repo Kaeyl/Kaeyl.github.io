@@ -248,11 +248,65 @@ hr {
   font-size: 150%;
   font-family: 'Source Sans Pro', sans-serif;
 }
+.container-body {
+  padding-left: 0.5%;
+}
+
 .container-text-1 p {
   float: left;
   font-size: 300%;
   color:  black;
-  /*padding-right: 100%;*/
+  padding-left: 4%;
+  padding-bottom: 5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 p {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+.container-image-3, .container-image-4 {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  /*padding-top: 5%;*/
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+}
+@media screen and (max-width: 740px) {
+  .buffer {
+  height: 10px;
+}
+.container h1 {
+  font-size: 300%;
+  color: white;
+  padding-right: 100%;
+  font-family: 'Tinos', serif;
+}
+.container h5 {
+
+  font-size: 150%;
+  color: white;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.underheading {
+  font-size: 150%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-text-1 p {
+  float: left;
+  font-size: 300%;
+  color:  black;
   padding-left: 4%;
   padding-bottom: 5%;
   font-family: 'Source Sans Pro', sans-serif;
@@ -265,8 +319,16 @@ hr {
   /*padding-left: 5%;*/
   padding-right: 5%;
 }
-
+.container-image-3, .container-image-4 {
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  /*padding-top: 5%;*/
+  padding-left: 5%;
+  padding-right: 5%;
 }
+}
+
 @media screen and (max-width: 700px) {
   .buffer {
   height: 10px;
@@ -288,11 +350,14 @@ hr {
   font-size: 150%;
   font-family: 'Source Sans Pro', sans-serif;
 }
+.container-body {
+  padding-left: 0.5%;
+}
+
 .container-text-1 p {
   float: left;
   font-size: 300%;
   color:  black;
-  /*padding-right: 100%;*/
   padding-left: 4%;
   padding-bottom: 5%;
   font-family: 'Source Sans Pro', sans-serif;
@@ -303,6 +368,14 @@ hr {
   text-align: left;
   padding-top: 5%;
   /*padding-left: 5%;*/
+  padding-right: 5%;
+}
+.container-image-3, .container-image-4 {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  /*padding-top: 5%;*/
+  padding-left: 5%;
   padding-right: 5%;
 }
 }
@@ -330,11 +403,14 @@ hr {
   font-size: 200%;
   font-family: 'Source Sans Pro', sans-serif;
 }
+.container-body {
+  padding-left: 0.5%;
+}
+
 .container-text-1 p {
   float: left;
   font-size: 300%;
   color:  black;
-  /*padding-right: 100%;*/
   padding-left: 4%;
   padding-bottom: 5%;
   font-family: 'Source Sans Pro', sans-serif;
@@ -410,16 +486,34 @@ hr {
   float: left;
   font-size: 200%;
   color:  black;
-  /*padding-right: 100%;*/
   padding-left: 4%;
   padding-bottom: 5%;
   font-family: 'Source Sans Pro', sans-serif;
+}
+.container-body {
+  padding-left: 0.5%;
+}
+
+.container-1 .container-image-1, .container-image-2, .container-image-3 img{
+  float: left;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+
+}
+.container-image-3, .container-image-4 {
+  font-size: 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*text-align: left;*/
+  /*padding-top: 5%;*/
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .container-1 .container-image-1, .container-image-2, .container-image-3 p {
   font-size: 25px;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: left;
-  /*padding-top: 5%;*/
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -466,13 +560,11 @@ hr {
 @media screen and (max-width: 320px){
  .container {
   color: white;
-  /*padding-top: 0%;*/
   font-family: 'Tinos', serif;
 }
 .container h1 {
   font-size: 250%;
   color: white;
-  /*padding-right: 100%;*/
   font-family: 'Tinos', serif;
 }
 .container h5 {
@@ -490,7 +582,6 @@ hr {
   float: left;
   font-size: 200%;
   color:  black;
-  /*padding-right: 100%;*/
   padding-left: 4%;
   padding-bottom: 5%;
   font-family: 'Source Sans Pro', sans-serif;
@@ -500,7 +591,6 @@ hr {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: left;
   padding-top: 5%;
-  /*padding-left: 5%;*/
   padding-right: 5%;
 }
 .buffer {
@@ -563,7 +653,6 @@ hr {
   float: left;
   font-size: 200%;
   color:  black;
-  /*padding-right: 100%;*/
   padding-left: 4%;
   padding-bottom: 5%;
   font-family: 'Source Sans Pro', sans-serif;
@@ -573,7 +662,6 @@ hr {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: left;
   padding-top: 5%;
-  /*padding-left: 5%;*/
   padding-right: 5%;
 }
 .buffer {
